@@ -1,0 +1,20 @@
+{
+  "publish_seconds": 5,
+  "sound_gpio": 17,
+  "motion_gpio": 27,
+  "sound_active_high": false,
+  "motion_active_high": false,
+  "pressure": {
+    "model": "HSCDANN600MGSA3",
+    "bus": 0,
+    "device": 0,
+    "cs_gpio": 25,
+    "min_mbar": 0.0,
+    "max_mbar": 600.0
+  },
+  "ppg": {
+    "min_dc_counts": 1000,
+    "min_perfusion_fraction": 0.0005,
+    "spo2_calibration": null
+  }
+}
